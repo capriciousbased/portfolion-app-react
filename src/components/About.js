@@ -1,9 +1,8 @@
 import React from "react";
 import Odin from "../images/odin.png";
-
-import styled from "styled-components";
 import WorkSkills from "./WorkSkills";
 import ScrollTop from "./ScrollTop";
+import "./About.css";
 
 const About = () => {
   const ColoredLine = ({ color, width }) => (
@@ -19,7 +18,7 @@ const About = () => {
     />
   );
   return (
-    <AboutStyle>
+    <div className="aboutStyle">
       <h1>About Me</h1>
       <h3>
         My background is Hospitality and Management and for the last 12 years I
@@ -67,60 +66,7 @@ const About = () => {
       <WorkSkills />
 
       <ScrollTop />
-    </AboutStyle>
+    </div>
   );
 };
 export default About;
-const AboutStyle = styled.div`
-  width: 80%;
-  height: 100%;
-  padding: 10%;
-  margin: 0 auto;
-  background-color: rgb(231, 248, 205);
-  color: rgb(54, 54, 54);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
-  opacity: 0;
-  margin-top: 50%;
-  animation: arise 1.2s ease-out 0.2s forwards;
-  @keyframes arise {
-    0% {
-      margin-top: 50%;
-      opacity: 0;
-    }
-    100% {
-      margin-top: 0%;
-      opacity: 1;
-    }
-  }
-
-  @media (max-width: 780px) {
-    margin-top: 30%;
-    animation: none;
-    opacity: 1;
-  }
-  @media (max-width: 550px) {
-    margin-top: 50%;
-    opacity: 1;
-  }
-  p {
-    align-items: center;
-  }
-
-  a:link {
-    color: rgb(54, 54, 54);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  a:visited {
-    color: rgb(54, 54, 54);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-`;

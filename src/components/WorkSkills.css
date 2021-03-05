@@ -1,0 +1,33 @@
+.WorkStyle {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
+.WorkStyle img {
+  width: auto;
+  height: 130px;
+  padding-bottom: 20px;
+}
+.containerStyle {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.boxStyle {
+  width: 40%;
+  height: auto;
+  margin: 2% 5% 2% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  width: 80%;
+}
