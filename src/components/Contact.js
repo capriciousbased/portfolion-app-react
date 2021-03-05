@@ -25,7 +25,14 @@ const Contact = () => {
         </a>
       </Styled3>
       <Styled4>
-        <h3>Please see my CV for further contact details.</h3>
+        <h3>
+          Please see my{" "}
+          <a href="https://drive.google.com/file/d/1_Zpt0QL_MH9kwqcLomFhDT43BzXGew8s/view?usp=sharing">
+            {" "}
+            RESUME{" "}
+          </a>{" "}
+          for further contact details.
+        </h3>
       </Styled4>
       <ScrollTop />
     </ContactStyle>
@@ -106,7 +113,7 @@ const Styled2 = styled.div`
     width: 50%;
     height: 100%;
     background-color: rgb(54, 54, 54);
-    color: rgb(231, 248, 205);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -132,8 +139,8 @@ const Styled3 = styled.div`
     width: 50%;
     margin-left: 25%;
     height: 100%;
-    color: rgb(231, 248, 205);
     background-color: rgb(54, 54, 54);
+    color: rgb(231, 248, 205);
     text-decoration: none;
     display: flex;
     align-items: center;

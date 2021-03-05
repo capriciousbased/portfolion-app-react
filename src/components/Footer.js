@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <FooterStyle>
-      <span className="copy-right">&copy;2020 Md Anisul H Khan.</span>
+      <span className="copy-right">&copy; 2021 Md Anisul H Khan</span>
     </FooterStyle>
   );
 };

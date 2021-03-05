@@ -23,7 +23,7 @@ export const ProjectData = [
     githubLink: "https://github.com/capriciousbased/TinDog-app-with-Bootstrap4",
   },
   {
-    name: "Advice App with an API",
+    name: "Advice App with API",
     proImg: advice,
     assignment:
       " In this project builded an amazing beginner-friendly react application with advice API. This is suitable for beginner react projects .",

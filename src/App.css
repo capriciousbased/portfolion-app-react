@@ -30,7 +30,6 @@ object,
 iframe,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -222,7 +221,6 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -1224,7 +1222,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 80px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;

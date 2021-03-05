@@ -1,20 +1,13 @@
 import React from "react";
-import styled from "styled-components";
 //import components to make up home page
 import Header from "./components/Header";
+import "./home.css";
 
 const Home = () => {
   return (
-    <HomeStyle>
+    <div className="home">
       <Header />
-    </HomeStyle>
+    </div>
   );
 };
 export default Home;
-const HomeStyle = styled.div`
-  margin-top: 0;
-  padding-top: 0;
-  @media (max-width: 550px) {
-    margin-top: 30%;
-  }
-`;

@@ -1,0 +1,179 @@
+.projects-page-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  animation: 3s load-in-projects ease;
+}
+
+.projects-header-container {
+  font-size: 2.5rem;
+}
+
+.projects-header-container h1 {
+  margin-bottom: 0;
+}
+
+.projs-container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 5%;
+  width: 90%;
+}
+
+.project-card-container {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.projs-container .flip-card {
+  width: 20%;
+}
+
+.proj-flip-card {
+  width: 20%;
+  height: auto;
+}
+
+.proj-skills-list {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.proj-skill {
+  font-size: 1.3rem;
+  border: 1px solid white;
+  width: 100%;
+  margin: 2px;
+  cursor: default;
+  color: white;
+  transition: all 0.4s ease-in-out;
+  padding: 2%;
+}
+
+.proj-skill:hover {
+  transform: scale(1.1) perspective(1px);
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+.proj-button-link {
+  text-decoration: none;
+  width: 70%;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5%;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.proj-button-link:hover {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+@keyframes load-in-projects {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* media querys */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .projs-container .flip-card {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .projs-container .flip-card {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .flip-card-contents {
+    text-align: none !important;
+  }
+  .flip-card-front,
+  .flip-card-back {
+    transform: none;
+    position: relative;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  .flip-card-contents {
+    position: flex;
+  }
+
+  .flip-card-img {
+    width: 100%;
+  }
+
+  .proj-skill:hover {
+    transform: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .proj-button-link:hover {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .projs-container .flip-card {
+    width: 75%;
+  }
+  .proj-skill {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .projects-header-container {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .projs-container .flip-card {
+    width: 100%;
+  }
+
+  .proj-skill {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .proj-button-link {
+    font-size: 0.7rem;
+  }
+
+  .projects-header-container {
+    font-size: 1.8rem;
+  }
+
+  .proj-skills-list {
+    margin-bottom: 5px;
+  }
+}
