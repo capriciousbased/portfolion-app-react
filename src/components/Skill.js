@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import TileIcon from "./TileIcon";
 import ScrollTop from "./ScrollTop";
+import "./Skills.css";
 
 const Skills = () => {
   const skillsArr = [
@@ -82,8 +83,8 @@ const Skills = () => {
   ];
 
   return (
-    <SkillStyle>
-      <TileHolder>
+    <div className="skillStyle">
+      <div className="tileHolder">
         {skillsArr.map((skill) => (
           <div key={skill.key}>
             <TileIcon
@@ -96,7 +97,7 @@ const Skills = () => {
             />
           </div>
         ))}
-      </TileHolder>
+      </div>
       <OdinStyle>
         <h3>
           I started Freecodcamp, teamtreehouse and the{" "}
@@ -109,43 +110,10 @@ const Skills = () => {
         </h3>
       </OdinStyle>
       <ScrollTop />
-    </SkillStyle>
+    </div>
   );
 };
-const SkillStyle = styled.div`
-  width: 90%;
-  height: 93vh;
-  margin: 0 auto;
-  background-color: rgb(231, 248, 205);
-  color: rgb(54, 54, 54);
-  display: flex;
-  justify-content: space-between;
-  padding: 5%;
-  padding-bottom: 0;
-  align-items: center;
-  @media (max-width: 1000px) {
-    flex-direction: column-reverse;
-  }
-  @media (max-width: 780px) {
-    margin-top: 20%;
-  }
-  @media (max-width: 550px) {
-    margin-top: 35%;
-  }
-  @media (max-width: 450px) {
-    margin-top: 40%;
-  }
-`;
-const TileHolder = styled.div`
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-  }
-`;
+
 const OdinStyle = styled.div`
   width: 40%;
   text-align: right;
