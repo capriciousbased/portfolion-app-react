@@ -1,6 +1,20 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "PT Sans", sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* footer */
+
+.footerStyle {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  color: rgb(231, 248, 205);
+}

@@ -76,7 +76,7 @@ const AboutStyle = styled.div`
   height: 100%;
   padding: 10%;
   margin: 0 auto;
-  background-color: rgb(231, 248, 205);
+  background-color: #dbe2ef;
   color: rgb(54, 54, 54);
   display: flex;
   flex-direction: column;
