@@ -1,5 +1,5 @@
 import React from "react";
-import "./WorkSkills.css";
+import styled from "styled-components";
 
 //image imports
 import teamwork from "../images/teamwork.png";
@@ -8,7 +8,6 @@ import time from "../images/time.png";
 import pressure from "../images/pressure.png";
 import accuracy from "../images/accuracy.png";
 import conversation from "../images/conversation.png";
-
 const WorkSkills = () => {
   const Skills = [
     {
@@ -48,23 +47,52 @@ const WorkSkills = () => {
         "Working in Guest Service, communication as always been one of my best assets. I am friendly and approachable, conversing easily with people from a broad range of backgrounds.",
     },
   ];
-
   return (
-    <div className="workStyle">
+    <WorkStyle>
       <h2>Skills</h2>
       <h3>To my career as a developer I can bring strong attributes:</h3>
-      <div className="containerStyle">
+      <ContainerStyle>
         {Skills.map((a) => {
           return (
-            <div className="boxStyle" key={a.name}>
+            <BoxStyle key={a.name}>
               <img src={a.image} alt={a.name} />
               <h3>{a.name}</h3>
               <p>{a.article}</p>
-            </div>
+            </BoxStyle>
           );
         })}
-      </div>
-    </div>
+      </ContainerStyle>
+    </WorkStyle>
   );
 };
 export default WorkSkills;
+const WorkStyle = styled.div`
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  img {
+    width: auto;
+    height: 130px;
+    padding-bottom: 20px;
+  }
+`;
+const ContainerStyle = styled.div`
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+`;
+const BoxStyle = styled.div`
+  width: 40%;
+  height: auto;
+  margin: 2% 5% 2% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 850px) {
+    width: 80%;
+  }
+`;

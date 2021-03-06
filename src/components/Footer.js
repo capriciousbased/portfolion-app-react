@@ -1,11 +1,19 @@
 import React from "react";
-import "./Footer.css";
-
+import styled from "styled-components";
 const Footer = () => {
   return (
-    <div className="footerStyle">
+    <FooterStyle>
       <span className="copy-right">&copy; 2021 Md Anisul H Khan</span>
-    </div>
+    </FooterStyle>
   );
 };
 export default Footer;
+
+const FooterStyle = styled.div`
+  width: 100%;
+  height: 50px;
+  background-color: rgb(54, 54, 54);
+  color: rgb(231, 248, 205);
+  align-items: center;
+  bottom: 0;
+`;

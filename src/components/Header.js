@@ -1,11 +1,17 @@
 import React from "react";
-import Banner from "./Banner";
-const Header = () => {
-  return (
-    <header id="home">
-      <Banner />
-    </header>
-  );
-};
+import "./Header.css";
+import SocialLinks from "./SocialLinks";
 
-export default Header;
+export default function Header() {
+  return (
+    <div className="home">
+      <h1 className="home-headline">I'm Anisul Hoque Khan.</h1>
+      <h3 className="home-text">
+        I'm a Berlin based <span>Frontend Developer</span>. After 12 years of
+        creating adventures for others,it's time to start the next stage of my
+        journey.
+      </h3>
+      <SocialLinks />
+    </div>
+  );
+}

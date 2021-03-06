@@ -1,10 +1,9 @@
 import React from "react";
-import "./App.css";
 import { HashRouter, Switch, Route } from "react-router-dom";
-
+import "./app.css";
 //import component pages
 import Home from "./Home";
-import Nav from "./components/Nav";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -15,7 +14,7 @@ const App = () => {
   return (
     <HashRouter basename="/">
       <div className="App">
-        <Nav />
+        <Navbar />
         <Switch>
           <Route exact path="/" render={() => <Home />} />
           <Route path="/skills" render={() => <Skill />} />

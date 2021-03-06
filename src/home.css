@@ -1,8 +1,0 @@
-.home{
-    margin-top: 0;
-    padding-top: 0;
-}
-
-@media (max-width: 550px) {
-    margin-top: 30%;
-  }
