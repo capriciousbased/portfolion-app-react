@@ -186,7 +186,7 @@ const Styled4 = styled.div`
   h3 {
     width: 50%;
     height: 100%;
-    background-color: rgb(54, 54, 54);
+    background-color: black;
     color: rgb(231, 248, 205);
     margin-left: 25%;
     display: flex;
