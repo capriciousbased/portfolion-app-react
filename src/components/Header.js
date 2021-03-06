@@ -8,8 +8,8 @@ export default function Header() {
       <h1 className="home-headline">Hello, I'm Anis</h1>
       <h3 className="home-text">
         I'm a Berlin based <span>Frontend Developer</span>. After 12 years of
-        creating adventures for others,it's time to start the next stage of my
-        journey.
+        providing professional Hospitality services,it's time to start the next
+        stage of my journey.
       </h3>
       <SocialLinks />
     </div>
