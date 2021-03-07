@@ -49,8 +49,10 @@ const projs = [
     name: "Conference Reservation",
     skills: ["HTML", "CSS", "BootStrap"],
     img: conf,
-    link: "https://codepen.io/capriciousbased/pen/wvzoMoX",
-    github: "https://github.com/capriciousbased/calculator",
+    link:
+      "https://capriciousbased.github.io/full-stack-conf-bootstrap4-Prjoect/",
+    github:
+      "https://github.com/capriciousbased/full-stack-conf-bootstrap4-Prjoect",
   },
   {
     name: "Best city Guide",
@@ -63,8 +65,10 @@ const projs = [
     name: "Color Game",
     skills: ["VanillaJS", "CSS", "Responsive"],
     img: color,
-    link: "https://capriciousbased.github.io/clock-with-css-javaScript",
-    github: "https://github.com/capriciousbased/clock-with-css-javaScript",
+    link:
+      "https://capriciousbased.github.io/Color-game-Project-Using-JavaScript/",
+    github:
+      "https://github.com/capriciousbased/Color-game-Project-Using-JavaScript",
   },
   {
     name: "Calculator",
