@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import odin from "../images/odin.png";
 import {
   faGithub,
   faCss3Alt,
@@ -99,12 +98,8 @@ const Skills = () => {
       </TileHolder>
       <OdinStyle>
         <h3>
-          I started Freecodcamp, teamtreehouse and the{" "}
-          <a href="https://www.theodinproject.com/home">
-            <img src={odin} alt="odin project" />
-            Odin Project
-          </a>{" "}
-          Beginning of 2020 and have continued studying 5-6 hours per day
+      I started Freecodcamp, teamtreehouse and the <a href="https://www.techlabs.org/">TechLabs</a> Bootcamp
+          Beginning of 2020 and  then have continued studying 5-6 hours per day
           everyday since, using weekends to create my projects.
         </h3>
       </OdinStyle>
@@ -114,7 +109,6 @@ const Skills = () => {
 };
 const SkillStyle = styled.div`
   width: 90%;
-  height: 93vh;
   margin: 0 auto;
   background-color: rgb(231, 248, 205);
   color: rgb(54, 54, 54);
@@ -126,15 +120,7 @@ const SkillStyle = styled.div`
   @media (max-width: 1000px) {
     flex-direction: column-reverse;
   }
-  @media (max-width: 780px) {
-    margin-top: 20%;
-  }
-  @media (max-width: 550px) {
-    margin-top: 35%;
-  }
-  @media (max-width: 450px) {
-    margin-top: 40%;
-  }
+  
 `;
 const TileHolder = styled.div`
   display: grid;
@@ -154,6 +140,10 @@ const OdinStyle = styled.div`
   line-height: 1.8;
   opacity: 0;
   animation: slide 1s linear 1s forwards;
+
+  h3{
+    text-align: justify;
+  }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -167,9 +157,8 @@ const OdinStyle = styled.div`
     width: auto;
   }
   @media (max-width: 1000px) {
-    width: 90%;
     text-align: center;
-    margin-bottom: 5%;
+
   }
   a:link {
     color: rgb(54, 54, 54);

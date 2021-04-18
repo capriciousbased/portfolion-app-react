@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 //import component pages
 import Home from "./Home";
 import Navbar from "./components/Navbar";
