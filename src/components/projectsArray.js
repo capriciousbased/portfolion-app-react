@@ -8,8 +8,17 @@ import conf from "../images/conf.png";
 import clock from "../images/clock.png";
 import advice from "../images/advice-app.png";
 import lake from "../images/lake.png";
+import motivity from "../images/motivity.png";
 
 const projs = [
+  
+  {
+    name: "Motivity - Find Happiness, one Activity at a Time!",
+    skills: ["React", "Axios", "Material-Ui", "Responsive"],
+    img: motivity,
+    link: "https://github.com/capriciousbased/Final-Project",
+    github: "https://motivity-react-project.netlify.app/",
+  },
   {
     name: "Tingdog App",
     skills: ["HTML 5", "CSS 3", "VanillaJS", "Bootstrap", "Responsive"],
