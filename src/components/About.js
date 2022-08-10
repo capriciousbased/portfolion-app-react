@@ -59,9 +59,7 @@ const About = () => {
         I have thoroughly enjoyed the challenge of working through each project,
         seeing the knowledge I have been taught in each lesson come to use. I
         have on average spent 7-8 hrs per day working through the course
-        supplemented with learning from You Tube and TED talks. The project
-        itself offered various differing means of learning each topic from
-        online tutorials to articles.
+        supplemented with learning from You Tube and TED talks.
       </p>
       <ColoredLine color="rgb(54,54,54)" width="90%" />
       <WorkSkills />
