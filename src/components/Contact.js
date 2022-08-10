@@ -27,7 +27,7 @@ const Contact = () => {
       <Styled4>
         <h3>
           Please see my{" "}
-          <a href="https://drive.google.com/file/d/1LHqadx42CVhjO6vA2EOclPJ4EvTjQIOX/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/18TBC1NVB71ZQMeb0eG7DIgFou5_QFaQP/view?usp=sharing">
             {" "}
             RESUME{" "}
           </a>{" "}
