@@ -28,28 +28,15 @@ const About = () => {
         opportunity for change. Since starting of 2020 I have fully submerged
         myself into study of the Full Stack Web Development Courses like
         freecode Camp, team treehouse Frontend web Development, Udemy Complet
-        web Development course and the Odin Project.
+        web Development course and Techlabs Bootcamp.
       </h3>
       <p>
-        The Freecode camp and Odin project is free open source coding curriculum
-        and is maintained and improved by a team of contributors which aims to
-        help it constantly update to the demands of the industry. I began on
-        their foundation course working my way through lessons on HTML and CSS,
-        these are interspersed with projects, all of which rather than holding
-        your hand throughout are very much self driven. They believe that
-        building projects and actually being hands on is the best way to learn,
-        it forces you to solve any problems by breaking them down into more
-        manageable sections before moving on.
+
       </p>
       <p>
-        There are a couple of different paths after the foundation course and I
-        decided to go through their full stack Javascript course next, starting
-        with Javascript objects, functions and classes before moving onto ES6
-        modules. Finally this Course has worked through React, Webpack,
-        async/await, Node JS and onto test driven development using Jest
-        alongside React.
+.
       </p>
-      <a href="https://www.theodinproject.com/home">
+      {/* <a href="https://www.theodinproject.com/home">
         <img src={Odin} alt="odin project" />
         The Odin Project
       </a>
@@ -62,7 +49,7 @@ const About = () => {
         supplemented with learning from You Tube and TED talks. The project
         itself offered various differing means of learning each topic from
         online tutorials to articles.
-      </p>
+      </p> */}
       <ColoredLine color="rgb(54,54,54)" width="90%" />
       <WorkSkills />
 

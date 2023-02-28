@@ -12,6 +12,24 @@ const SocialLinks = () => (
   <ul className="social">
     <li>
       <a
+        href="https://www.linkedin.com/in/md-anisul-hoque-khan-37582167/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaLinkedin />
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/capriciousbased"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaGithub />
+      </a>
+    </li>
+    <li>
+      <a
         href="https://www.facebook.com/capricious.based/"
         target="_blank"
         rel="noopener noreferrer"
@@ -35,24 +53,6 @@ const SocialLinks = () => (
         rel="noopener noreferrer"
       >
         <FaCodepen />
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.linkedin.com/in/md-anisul-hoque-khan-37582167/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaLinkedin />
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://github.com/capriciousbased"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaGithub />
       </a>
     </li>
   </ul>

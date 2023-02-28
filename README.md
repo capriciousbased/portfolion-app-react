@@ -1,7 +1,6 @@
 ### Hi! Anis here
 
-I'm a frontend developer specialising in React.
-I enjoy building responsive, clean websites, learning new things .
+I'm a passionate and motivated DevOps Enginner with frontend development background specialising in React. I enjoy building responsive, clean websites, learning new things .
 
 - 🔭 Working on personal projects
 - 🌱 Learning Full Stack Web Development.
