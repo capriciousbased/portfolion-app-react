@@ -1,5 +1,4 @@
 import React from "react";
-import Odin from "../images/odin.png";
 
 import styled from "styled-components";
 import WorkSkills from "./WorkSkills";

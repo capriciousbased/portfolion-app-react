@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
-import stylecomp from '../images/stylecomp.png';
 
 const TileIcon = ({ IconName, backgrnd, maincolor, name, pcolor, image }) => {
 	const [display, setDisplay] = useState(false);
